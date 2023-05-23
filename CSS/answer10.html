@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Answer. 10</title>
+    <style>
+      body {
+        background-color: lightskyblue;
+        color: #fff;
+        font-family: monospace;
+        font-size: 2em;
+      }
+      header {
+        background-color: teal;
+        min-height: 15vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 1em;
+      }
+      main {
+        min-height: 75vh;
+        display: flex;
+        gap: 1em;
+      }
+      aside {
+        background-color: limegreen;
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      section {
+        background-color: orangered;
+        flex: 3;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: flex-end;
+        padding-bottom: 1em;
+      }
+      #imgs {
+        min-height: 15vh;
+        display: flex;
+      }
+      section div {
+        background-color: yellow;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 5em;
+        width: 5em;
+      }
+      section div:first-child {
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0);
+        display: flex;
+        align-items: end;
+      }
+    </style>
+  </head>
+  <body>
+    <header><p>Header</p></header>
+    <main>
+      <aside><p>Aside</p></aside>
+      <section>
+        <div>Article</div>
+        <div>Image</div>
+        <div>Image</div>
+        <div>Image</div>
+      </section>
+    </main>
+  </body>
+</html>
